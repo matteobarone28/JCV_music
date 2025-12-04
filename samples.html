@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <title>JCV - Samples</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stili -->
+  <link rel="stylesheet" href="assets/style.css">
+
+  <!-- Script di Gumroad per i pulsanti -->
+  <script src="https://gumroad.com/js/gumroad.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="navbar">
+    <a href="index.html" class="logo">JCV</a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="samples.html" class="active">Samples</a>
+      <a href="credits.html">Credits</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-subtitle">Samples</div>
+    <h1>Sample pack e sound kit</h1>
+    <p class="hero-text">
+      Sax Season Sax Season Sax Season Sax Season Sax Season Sax Season
+    </p>
+  </section>
+
+  <section>
+    <div class="products">
+
+      <article class="product">
+        <!-- Copertina "album" -->
+        <img src="assets/img/sample-pack-vol1.jpg" alt="Copertina Sample Pack Vol. 1" class="product-cover">
+
+        <h2>Sample Pack Vol. 1</h2>
+        <p class="product-meta">La Sax Season è iniziata</p>
+        <p>
+          Sax Season Sax Season Sax Season Sax Season Sax Season Sax Season
+          Sax Season Sax Season Sax Season
+        </p>
+
+        <!-- Qui puoi usare anche un prodotto Gumroad di qualcun altro per testare -->
+        <a class="gumroad-button btn-primary" href="https://lukebergs.gumroad.com/l/EzLXR">
+          Compra ora su
+        </a>
+      </article>
+
+      <article class="product">
+        <!-- Copertina "album" -->
+        <img src="assets/img/808-kit.jpg" alt="Copertina 808 Essentials Kit" class="product-cover">
+
+        <h2>Sax essential kit</h2>
+        <p class="product-meta">Se ti piace il Sax, allora Sax Sax Sax!</p>
+        <p>
+          Sax Season Sax Season Sax Season Sax Season Sax Season Sax Season
+          Sax Season Sax Season Sax Season
+        </p>
+        <a class="gumroad-button btn-primary" href="https://lukebergs.gumroad.com/l/EzLXR">
+          Compra ora su
+        </a>
+      </article>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-social">
+      <a href="https://youtube.com/@jcvmusicc" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+        <i class="fa-brands fa-youtube"></i>
+      </a>
+      <a href="https://www.instagram.com/jcvmusicc" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.tiktok.com/jcvmusicc" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+        <i class="fa-brands fa-tiktok"></i>
+      </a>
+      <a href="https://open.spotify.com/artist/3gJzsAOGyD7OxJkjTtAaRw" target="_blank" rel="noopener noreferrer" aria-label="Spotify">
+        <i class="fa-brands fa-spotify"></i>
+      </a>
+    </div>
+
+    <div class="footer-copy">
+      © <span id="year"></span> JCV - All rights reserved
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
